@@ -19,7 +19,7 @@ U 1 1 611576E4
 P 1200 1650
 F 0 "J1" H 1307 2517 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 1307 2426 50  0000 C CNN
-F 2 "Molex 503480-1200:503480-1200" H 1350 1650 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 1350 1650 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1350 1650 50  0001 C CNN
 	1    1200 1650
 	1    0    0    -1  
@@ -64,17 +64,6 @@ F 1 "GND" H 905 2377 50  0000 C CNN
 F 2 "" H 900 2550 50  0001 C CNN
 F 3 "" H 900 2550 50  0001 C CNN
 	1    900  2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x12 J2
-U 1 1 6115E24D
-P 4550 1750
-F 0 "J2" H 4630 1742 50  0000 L CNN
-F 1 "Conn_01x12" H 4630 1651 50  0000 L CNN
-F 2 "Connector_FFC-FPC:Hirose_FH12-12S-0.5SH_1x12-1MP_P0.50mm_Horizontal" H 4550 1750 50  0001 C CNN
-F 3 "~" H 4550 1750 50  0001 C CNN
-	1    4550 1750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -168,12 +157,12 @@ Wire Wire Line
 Connection ~ 4350 1300
 Wire Wire Line
 	4350 1300 4350 1350
-Text Label 4350 1550 2    50   ~ 0
+Text Label 3950 1550 2    50   ~ 0
 d-
-Text Label 4350 1450 2    50   ~ 0
+Text Label 3950 1450 2    50   ~ 0
 d+
 Wire Wire Line
-	4350 2250 4350 2350
+	4350 2250 4350 2300
 Text Label 4350 2300 2    50   ~ 0
 vcc
 Wire Wire Line
@@ -202,4 +191,128 @@ Wire Wire Line
 	3050 1800 3900 1800
 Wire Wire Line
 	3050 2300 3050 2250
+$Comp
+L Connector_Generic:Conn_01x12 J3
+U 1 1 611823A5
+P 5350 1800
+F 0 "J3" H 5430 1792 50  0000 L CNN
+F 1 "Conn_01x12" H 5430 1701 50  0000 L CNN
+F 2 "Molex 503480-1200:503480-1200" H 5350 1800 50  0001 C CNN
+F 3 "~" H 5350 1800 50  0001 C CNN
+	1    5350 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 1850 4350 1900
+Wire Wire Line
+	4350 1950 4350 2000
+Wire Wire Line
+	4350 2050 4350 2100
+Wire Wire Line
+	4350 2200 4350 2150
+Connection ~ 4350 2300
+Wire Wire Line
+	4350 2300 4350 2350
+Connection ~ 4350 2050
+Connection ~ 4350 1950
+Connection ~ 4350 1850
+Connection ~ 4350 2150
+$Comp
+L Connector_Generic:Conn_01x12 J2
+U 1 1 6115E24D
+P 4550 1750
+F 0 "J2" H 4630 1742 50  0000 L CNN
+F 1 "Conn_01x12" H 4630 1651 50  0000 L CNN
+F 2 "Molex 503480-1200:503480-1200" H 4550 1750 50  0001 C CNN
+F 3 "~" H 4550 1750 50  0001 C CNN
+	1    4550 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 6119D55D
+P 4150 1450
+F 0 "R3" V 3943 1450 50  0000 C CNN
+F 1 "R" V 4034 1450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4080 1450 50  0001 C CNN
+F 3 "~" H 4150 1450 50  0001 C CNN
+	1    4150 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 6119E5C7
+P 4150 1550
+F 0 "R4" V 3943 1550 50  0000 C CNN
+F 1 "R" V 4034 1550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4080 1550 50  0001 C CNN
+F 3 "~" H 4150 1550 50  0001 C CNN
+	1    4150 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 6119EC49
+P 4950 1500
+F 0 "R5" V 4743 1500 50  0000 C CNN
+F 1 "R" V 4834 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4880 1500 50  0001 C CNN
+F 3 "~" H 4950 1500 50  0001 C CNN
+	1    4950 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 6119F4A6
+P 4950 1600
+F 0 "R6" V 4743 1600 50  0000 C CNN
+F 1 "R" V 4834 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4880 1600 50  0001 C CNN
+F 3 "~" H 4950 1600 50  0001 C CNN
+	1    4950 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5100 1500 5150 1500
+Wire Wire Line
+	5100 1600 5150 1600
+Wire Wire Line
+	4300 1450 4350 1450
+Wire Wire Line
+	4300 1550 4350 1550
+Wire Wire Line
+	3950 1550 4000 1550
+Wire Wire Line
+	3950 1450 4000 1450
+Wire Wire Line
+	4800 1600 3950 1600
+Wire Wire Line
+	3950 1600 3950 1550
+Wire Wire Line
+	3950 1500 3950 1450
+Wire Wire Line
+	3950 1500 4800 1500
+Wire Wire Line
+	4350 1300 5150 1300
+Wire Wire Line
+	5150 1400 5150 1300
+Connection ~ 5150 1300
+Wire Wire Line
+	4350 1700 5150 1700
+Wire Wire Line
+	5150 1800 5150 1700
+Connection ~ 5150 1700
+Wire Wire Line
+	4350 1900 5150 1900
+Wire Wire Line
+	4350 2000 5150 2000
+Wire Wire Line
+	4350 2100 5150 2100
+Wire Wire Line
+	4350 2200 5150 2200
+Wire Wire Line
+	5150 2400 5150 2300
+Connection ~ 5150 2300
+Wire Wire Line
+	4350 2300 5150 2300
 $EndSCHEMATC
