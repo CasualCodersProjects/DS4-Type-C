@@ -1,0 +1,256 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J1
+U 1 1 61182E03
+P 1100 1550
+F 0 "J1" H 1207 2417 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 1207 2326 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 1250 1550 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1250 1550 50  0001 C CNN
+	1    1100 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 61185054
+P 950 2550
+F 0 "#PWR01" H 950 2300 50  0001 C CNN
+F 1 "GND" H 955 2377 50  0000 C CNN
+F 2 "" H 950 2550 50  0001 C CNN
+F 3 "" H 950 2550 50  0001 C CNN
+	1    950  2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x14 J2
+U 1 1 611858EF
+P 5050 1550
+F 0 "J2" H 5130 1542 50  0000 L CNN
+F 1 "Conn_01x14" H 5130 1451 50  0000 L CNN
+F 2 "Molex 503480-1400:503480-1400" H 5050 1550 50  0001 C CNN
+F 3 "~" H 5050 1550 50  0001 C CNN
+	1    5050 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 61186ED9
+P 2000 1150
+F 0 "R1" V 1900 1150 50  0000 C CNN
+F 1 "5.1k" V 2000 1150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1930 1150 50  0001 C CNN
+F 3 "~" H 2000 1150 50  0001 C CNN
+	1    2000 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 61187A14
+P 2000 1250
+F 0 "R2" V 2100 1250 50  0000 C CNN
+F 1 "5.1k" V 2000 1250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1930 1250 50  0001 C CNN
+F 3 "~" H 2000 1250 50  0001 C CNN
+	1    2000 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 61187F93
+P 2150 1500
+F 0 "R3" V 2050 1500 50  0000 C CNN
+F 1 "Comp" V 2150 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2080 1500 50  0001 C CNN
+F 3 "~" H 2150 1500 50  0001 C CNN
+	1    2150 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 611891C9
+P 2150 1700
+F 0 "R4" V 2250 1700 50  0000 C CNN
+F 1 "Comp" V 2150 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2080 1700 50  0001 C CNN
+F 3 "~" H 2150 1700 50  0001 C CNN
+	1    2150 1700
+	0    1    1    0   
+$EndComp
+Text Label 1700 950  0    50   ~ 0
+vcc
+Text Label 2400 1500 0    50   ~ 0
+d-
+Text Label 2400 1700 0    50   ~ 0
+d+
+Wire Wire Line
+	1700 1450 1700 1500
+Wire Wire Line
+	2000 1500 1700 1500
+Connection ~ 1700 1500
+Wire Wire Line
+	1700 1500 1700 1550
+Wire Wire Line
+	1700 1650 1700 1700
+Wire Wire Line
+	2000 1700 1700 1700
+Connection ~ 1700 1700
+Wire Wire Line
+	1700 1700 1700 1750
+Wire Wire Line
+	2300 1700 2400 1700
+Wire Wire Line
+	2400 1500 2300 1500
+Wire Wire Line
+	1850 1150 1700 1150
+Wire Wire Line
+	1850 1250 1700 1250
+Wire Wire Line
+	2150 1150 2150 1200
+$Comp
+L power:GND #PWR02
+U 1 1 6118AE19
+P 2200 1200
+F 0 "#PWR02" H 2200 950 50  0001 C CNN
+F 1 "GND" V 2205 1072 50  0000 R CNN
+F 2 "" H 2200 1200 50  0001 C CNN
+F 3 "" H 2200 1200 50  0001 C CNN
+	1    2200 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 1200 2150 1200
+Connection ~ 2150 1200
+Wire Wire Line
+	2150 1200 2150 1250
+Wire Wire Line
+	1100 2450 950  2450
+Wire Wire Line
+	950  2550 950  2450
+Connection ~ 950  2450
+Wire Wire Line
+	950  2450 800  2450
+Wire Wire Line
+	4850 1050 4600 1050
+Wire Wire Line
+	4600 1050 4600 1150
+Wire Wire Line
+	4600 1250 4850 1250
+$Comp
+L power:GND #PWR03
+U 1 1 6118CE0B
+P 4600 1150
+F 0 "#PWR03" H 4600 900 50  0001 C CNN
+F 1 "GND" V 4605 1022 50  0000 R CNN
+F 2 "" H 4600 1150 50  0001 C CNN
+F 3 "" H 4600 1150 50  0001 C CNN
+	1    4600 1150
+	0    1    1    0   
+$EndComp
+Connection ~ 4600 1150
+Wire Wire Line
+	4600 1150 4600 1250
+Wire Wire Line
+	4850 950  4600 950 
+Wire Wire Line
+	4600 950  4600 1050
+Connection ~ 4600 1050
+Wire Wire Line
+	4850 1450 4600 1450
+Wire Wire Line
+	4600 1450 4600 1250
+Connection ~ 4600 1250
+Wire Wire Line
+	4850 1550 4850 1650
+Connection ~ 4850 1650
+Wire Wire Line
+	4850 1650 4850 1750
+Wire Wire Line
+	4850 1650 4550 1650
+Text Label 4850 1150 2    50   ~ 0
+d+
+Text Label 4850 1350 2    50   ~ 0
+d-
+Text Label 4550 1650 2    50   ~ 0
+vcc
+$Comp
+L power:GND #PWR04
+U 1 1 6118F285
+P 4650 1850
+F 0 "#PWR04" H 4650 1600 50  0001 C CNN
+F 1 "GND" V 4655 1722 50  0000 R CNN
+F 2 "" H 4650 1850 50  0001 C CNN
+F 3 "" H 4650 1850 50  0001 C CNN
+	1    4650 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 6118F8B2
+P 4650 2250
+F 0 "#PWR05" H 4650 2000 50  0001 C CNN
+F 1 "GND" V 4655 2122 50  0000 R CNN
+F 2 "" H 4650 2250 50  0001 C CNN
+F 3 "" H 4650 2250 50  0001 C CNN
+	1    4650 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4850 1850 4650 1850
+Wire Wire Line
+	4850 2250 4650 2250
+$Comp
+L MSL0104RGB:MSL0104RGB D1
+U 1 1 6119707E
+P 3900 2600
+F 0 "D1" H 3472 2691 50  0000 R CNN
+F 1 "MSL0104RGB" H 3472 2782 50  0000 R CNN
+F 2 "MSL0104RGB:MSL0104RGB" H 3900 2600 50  0001 C CNN
+F 3 "" H 3900 2600 50  0001 C CNN
+	1    3900 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4200 2450 4150 2450
+Wire Wire Line
+	3600 2450 3650 2450
+Wire Wire Line
+	4150 2450 4150 2250
+Wire Wire Line
+	4150 2250 3650 2250
+Wire Wire Line
+	3650 2250 3650 2450
+Connection ~ 4150 2450
+Wire Wire Line
+	4150 2450 4100 2450
+Connection ~ 3650 2450
+Wire Wire Line
+	3650 2450 3700 2450
+Text Label 4150 2250 0    50   ~ 0
+vcc
+Wire Wire Line
+	3800 2450 3800 2150
+Wire Wire Line
+	3900 2450 3900 2050
+Wire Wire Line
+	4000 2450 4000 1950
+Wire Wire Line
+	3800 2150 4850 2150
+Wire Wire Line
+	3900 2050 4850 2050
+Wire Wire Line
+	4000 1950 4850 1950
+$EndSCHEMATC
