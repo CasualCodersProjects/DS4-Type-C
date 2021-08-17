@@ -110,17 +110,6 @@ Wire Wire Line
 Wire Wire Line
 	2200 1350 2200 1300
 Connection ~ 2200 1300
-$Comp
-L Device:LED_ARBG D1
-U 1 1 61164030
-P 3050 2050
-F 0 "D1" V 3004 2410 50  0000 L CNN
-F 1 "LED_ARBG" V 3095 2410 50  0000 L CNN
-F 2 "MSL0601RGBU1:LED_MSL0601RGBU1" H 3050 2000 50  0001 C CNN
-F 3 "~" H 3050 2000 50  0001 C CNN
-	1    3050 2050
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4350 1250 4350 1300
 Wire Wire Line
@@ -172,8 +161,6 @@ Wire Wire Line
 Wire Wire Line
 	3750 2300 3050 2300
 Wire Wire Line
-	4350 1850 3250 1850
-Wire Wire Line
 	4350 2050 3950 2050
 Wire Wire Line
 	3950 2050 3950 1750
@@ -182,13 +169,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 1950 3900 1950
 Wire Wire Line
-	3900 1950 3900 1800
-Wire Wire Line
-	3050 1800 3050 1850
-Wire Wire Line
 	2850 1750 2850 1850
-Wire Wire Line
-	3050 1800 3900 1800
 Wire Wire Line
 	3050 2300 3050 2250
 $Comp
@@ -215,7 +196,6 @@ Wire Wire Line
 	4350 2300 4350 2350
 Connection ~ 4350 2050
 Connection ~ 4350 1950
-Connection ~ 4350 1850
 Connection ~ 4350 2150
 $Comp
 L Connector_Generic:Conn_01x12 J2
@@ -315,4 +295,28 @@ Wire Wire Line
 Connection ~ 5150 2300
 Wire Wire Line
 	4350 2300 5150 2300
+$Comp
+L Device:LED_AGBR D1
+U 1 1 61164030
+P 3050 2050
+F 0 "D1" V 3004 2410 50  0000 L CNN
+F 1 "LED_ARBG" V 3095 2410 50  0000 L CNN
+F 2 "MSL0601RGBU1:LED_MSL0601RGBU1" H 3050 2000 50  0001 C CNN
+F 3 "~" H 3050 2000 50  0001 C CNN
+	1    3050 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3050 1800 3050 1850
+Wire Wire Line
+	3250 1850 3900 1850
+Wire Wire Line
+	4350 1850 4100 1850
+Wire Wire Line
+	4100 1850 4100 1800
+Connection ~ 4350 1850
+Wire Wire Line
+	3050 1800 4100 1800
+Wire Wire Line
+	3900 1850 3900 1950
 $EndSCHEMATC
