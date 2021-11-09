@@ -14,6 +14,7 @@ As with JDS-011.
 
 ## JDS-040, JDS-050, and JDS-055
 Work for this board is complete. I verified that 040 functions the same as stock. This board is special in that it features connectors and compensation resistors for JDS-040, JDS-050, JDS-055. The JDS-05X side is presently untested, but according to reddit user [u/Mcorgano](https://www.reddit.com/r/PS4Mods/comments/p2q3da/selling_dropin_replacement_type_c_charge_boards/h8oozja/) the pinout is supposedly the same between JDS-040 and JDS-055. The [idea](https://www.reddit.com/r/PS4Mods/comments/p2q3da/selling_dropin_replacement_type_c_charge_boards/h8os8rh/) for this dual board also comes from the same user.
+As of 11/08/2021, the 055 pinout has been confirmed by reddit user [u/jrmanpt](https://old.reddit.com/r/PS4Mods/comments/p6g08b/open_sourcing_the_type_c_charge_boards_help_me/hjoxedu/)
 
 ## Universal
 The idea here is to create one "panelized" board which contains all above boards (JDS 001, 011, 030, 040, 050, 055). This means that someone could easily acquire a board for all controllers, then populate the one they need.
