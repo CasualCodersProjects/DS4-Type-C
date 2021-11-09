@@ -13,7 +13,7 @@ This board has not been started. Feel free to fork this project and make a PR if
 As with JDS-011.
 
 ## JDS-040, JDS-050, and JDS-055
-Work for this board is complete. I verified that 040 functions the same as stock. This board is special in that it features connectors and compensation resistors for JDS-040, JDS-050, JDS-055. The JDS-05X side is presently untested, but according to reddit user [u/Mcorgano](https://www.reddit.com/r/PS4Mods/comments/p2q3da/selling_dropin_replacement_type_c_charge_boards/h8oozja/) the pinout is supposedly the same between JDS-040 and JDS-055. The [idea](https://www.reddit.com/r/PS4Mods/comments/p2q3da/selling_dropin_replacement_type_c_charge_boards/h8os8rh/) for this dual board also comes from the same user.
+Work for this board is complete. I verified that 040 functions the same as stock. This board is special in that it features connectors and compensation resistors for JDS-040, JDS-050, JDS-055. The JDS-05X side is presently untested, but according to reddit user [u/Mcorgano](https://www.reddit.com/r/PS4Mods/comments/p2q3da/selling_dropin_replacement_type_c_charge_boards/h8oozja/) the pinout is supposedly the same between JDS-040 and JDS-055. The [idea](https://www.reddit.com/r/PS4Mods/comments/p2q3da/selling_dropin_replacement_type_c_charge_boards/h8os8rh/) for this dual board also comes from the same user.  
 As of 11/08/2021, the 055 pinout has been confirmed by reddit user [u/jrmanpt](https://old.reddit.com/r/PS4Mods/comments/p6g08b/open_sourcing_the_type_c_charge_boards_help_me/hjoxedu/)
 
 ## Universal
