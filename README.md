@@ -1,22 +1,37 @@
 # DS4-Type-C
 Hate microUSB? Looking to decrease cable clutter? This is the PS4 mod for you. This repo aims to host mostly drop-in USB Type C replacement boards for all revisions of PS4 controller. The goal for each board is to follow the USB Type C standard, and to include pads for those who wish to impedance match the USB data lines. Either solder in resistors here to compensate, or simply use a solder/wire bridge. The overall project goal is to keep all possible parts the same between boards, and to make it reasonablly easy for a person of moderate skill to populate these boards as they are with no modifications necessary. This is an open source project though, so you're free to download [KiCad](https://www.kicad.org/download/) and start making modifications to these boards so that you can more easily populate them.
 
-I used a 0.8mm PCB when I originally made these, and found it worked quite well. Gives a little more room to work inside the controller. Cost will likely depend on which board house you choose to go through.
+I used a 0.8mm PCB when I originally made these, and found it worked quite well. Gives a little more room to work inside the controller. Cost will likely depend on which board house you choose to go through.  
+# Turotial To Manufacture and asemble these boards.
+[![Tutorial to manufacture these boards](https://img.youtube.com/vi/DVEYy7VKs3Q/0.jpg)](http://www.youtube.com/watch?v=DVEYy7VKs3Q)
 
-## JDS-001
+
+# JDS-001
 Work for this board was done [here](https://github.com/HDR/DualShock4-USB-C) by Martin Refseth. I reworked his board to create kicad and schematic files for it. I also added compensation resistors as discussed above.
 
-## JDS-011
+## Parts Required for 001
+- 1x Old RGB LED  
+- 2x 5.1kΩ Resistors  
+- 2x 0Ω Resistors  
+- 1x USB C Connector  
+- 1x Molex 14-pin FPC Connector 
+
+## Pictures
+![Schematic](https://github.com/12ian3/DS4-Type-C/blob/main/001/001.svg)  
+![Front](https://github.com/12ian3/DS4-Type-C/blob/main/001/001_Front.png)  
+![Back](https://github.com/12ian3/DS4-Type-C/blob/main/001/001_Back.png)
+
+# JDS-011
 This board has not been started. Feel free to fork this project and make a PR if you own this board and wish to contribute. If all you can provide is schematics and dimensions, someone should be able to get a board made pretty quickly.
 
-## JDS-030
+# JDS-030
 As with JDS-011.
 
-## JDS-040, JDS-050, and JDS-055
+# JDS-040, JDS-050, and JDS-055
 Work for this board is complete. I verified that 040 functions the same as stock. This board is special in that it features connectors and compensation resistors for JDS-040, JDS-050, and JDS-055. The JDS-05X side is presently untested, but according to reddit user [u/Mcorgano](https://www.reddit.com/r/PS4Mods/comments/p2q3da/selling_dropin_replacement_type_c_charge_boards/h8oozja/) the pinout is supposedly the same between JDS-040 and JDS-055. The [idea](https://www.reddit.com/r/PS4Mods/comments/p2q3da/selling_dropin_replacement_type_c_charge_boards/h8os8rh/) for this dual board also comes from the same user.  
 As of 11/08/2021, the 055 pinout has been confirmed by reddit user [u/jrmanpt](https://old.reddit.com/r/PS4Mods/comments/p6g08b/open_sourcing_the_type_c_charge_boards_help_me/hjoxedu/)
 
-### Parts Required for 040/05X
+## Parts Required for 040/05X
 - 1x New RGB LED  
 - 2x 5.1kΩ Resistors  
 - 2x 0Ω Resistors  
@@ -25,12 +40,12 @@ As of 11/08/2021, the 055 pinout has been confirmed by reddit user [u/jrmanpt](h
 
 See the bottom of this document for sources, or use google to find these parts. It may often be cheaper to order multiples of an item, as this brings down the price when ordered in multiples of 10 on Mouser.
 
-### Pictures
+## Pictures
 ![Schematic](https://github.com/12ian3/DS4-Type-C/blob/main/040%20055/040%20055.svg)  
 ![Front](https://github.com/12ian3/DS4-Type-C/blob/main/040%20055/040%20055_Front.png)  
 ![Back](https://github.com/12ian3/DS4-Type-C/blob/main/040%20055/040%20055_Back.png)
 
-## Universal
+# Universal
 The idea here is to create one "panelized" board which contains all above boards (JDS 001, 011, 030, 040, 050, 055). This means that someone could easily acquire a board for all controllers, then populate the one they need.
 
 
