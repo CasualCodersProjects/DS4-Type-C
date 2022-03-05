@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr User 7283 5157
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -249,17 +249,6 @@ Wire Wire Line
 	2650 2000 3500 2000
 $Comp
 L power:VCC #PWR?
-U 1 1 621AC206
-P 1950 900
-F 0 "#PWR?" H 1950 750 50  0001 C CNN
-F 1 "VCC" H 2050 900 50  0000 C CNN
-F 2 "" H 1950 900 50  0001 C CNN
-F 3 "" H 1950 900 50  0001 C CNN
-	1    1950 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR?
 U 1 1 621ACE38
 P 3200 1700
 F 0 "#PWR?" H 3200 1550 50  0001 C CNN
@@ -281,8 +270,111 @@ F 3 "" H 2300 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 2300 2300
+$Comp
+L power:VCC #PWR?
+U 1 1 621AC206
+P 1950 900
+F 0 "#PWR?" H 1950 750 50  0001 C CNN
+F 1 "VCC" H 2050 900 50  0000 C CNN
+F 2 "" H 1950 900 50  0001 C CNN
+F 3 "" H 1950 900 50  0001 C CNN
+	1    1950 900 
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	1700 950  1950 950 
 Wire Wire Line
 	1950 950  1950 900 
+$Comp
+L Connector_Generic:Conn_01x12 J?
+U 1 1 622288ED
+P 5250 1600
+F 0 "J?" H 5330 1592 50  0000 L CNN
+F 1 "Conn_01x12" H 5330 1501 50  0000 L CNN
+F 2 "" H 5250 1600 50  0001 C CNN
+F 3 "~" H 5250 1600 50  0001 C CNN
+	1    5250 1600
+	1    0    0    -1  
+$EndComp
+Text Notes 3250 900  0    50   ~ 0
+JDS-001
+Text Notes 4950 1000 0    50   ~ 0
+JDS-011
+$Comp
+L power:GND #PWR?
+U 1 1 6222AF9C
+P 5050 1100
+F 0 "#PWR?" H 5050 850 50  0001 C CNN
+F 1 "GND" V 5055 972 50  0000 R CNN
+F 2 "" H 5050 1100 50  0001 C CNN
+F 3 "" H 5050 1100 50  0001 C CNN
+	1    5050 1100
+	0    1    1    0   
+$EndComp
+Text Label 5050 1200 2    50   ~ 0
+d+
+Text Label 5050 1300 2    50   ~ 0
+d-
+$Comp
+L power:GND #PWR?
+U 1 1 6222BE64
+P 5050 1400
+F 0 "#PWR?" H 5050 1150 50  0001 C CNN
+F 1 "GND" V 5055 1272 50  0000 R CNN
+F 2 "" H 5050 1400 50  0001 C CNN
+F 3 "" H 5050 1400 50  0001 C CNN
+	1    5050 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 1500 4900 1500
+Wire Wire Line
+	4900 1500 4900 1600
+Wire Wire Line
+	4900 1600 5050 1600
+$Comp
+L power:GND #PWR?
+U 1 1 6222D072
+P 5050 1700
+F 0 "#PWR?" H 5050 1450 50  0001 C CNN
+F 1 "GND" V 5055 1572 50  0000 R CNN
+F 2 "" H 5050 1700 50  0001 C CNN
+F 3 "" H 5050 1700 50  0001 C CNN
+	1    5050 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 6222D542
+P 5050 1800
+F 0 "#PWR?" H 5050 1650 50  0001 C CNN
+F 1 "VCC" V 5065 1927 50  0000 L CNN
+F 2 "" H 5050 1800 50  0001 C CNN
+F 3 "" H 5050 1800 50  0001 C CNN
+	1    5050 1800
+	0    -1   -1   0   
+$EndComp
+Text Label 5050 1900 2    50   ~ 0
+G
+Text Label 5050 2000 2    50   ~ 0
+R
+Text Label 5050 2100 2    50   ~ 0
+B
+$Comp
+L power:GND #PWR?
+U 1 1 6222EAD6
+P 5050 2200
+F 0 "#PWR?" H 5050 1950 50  0001 C CNN
+F 1 "GND" V 5055 2072 50  0000 R CNN
+F 2 "" H 5050 2200 50  0001 C CNN
+F 3 "" H 5050 2200 50  0001 C CNN
+	1    5050 2200
+	0    1    1    0   
+$EndComp
+Text Label 2650 2000 0    50   ~ 0
+G
+Text Label 2550 2100 0    50   ~ 0
+R
+Text Label 2450 2200 0    50   ~ 0
+B
 $EndSCHEMATC
