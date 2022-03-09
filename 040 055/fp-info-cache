@@ -1,4 +1,4 @@
-19219319125149029
+19250545251969209
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83054,3 +83054,94 @@ varistor SIOV
 0
 2
 2
+mousebites
+3.5mm CC_Logo
+
+
+0
+0
+0
+mousebites
+mouse-bite-1mm-slot
+
+
+0
+0
+0
+mousebites
+mouse-bite-2.54mm-slot
+
+
+0
+0
+0
+mousebites
+mouse-bite-2mm-slot
+
+
+0
+0
+0
+mousebites
+mouse-bite-3mm-slot
+
+
+0
+0
+0
+mousebites
+mouse-bite-5mm-slot
+
+
+0
+0
+0
+mousebites
+oddity
+
+
+0
+0
+0
+pkl_mechanical
+MountingHole_3mm
+Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,
+Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,
+0
+1
+0
+pkl_mechanical
+OSHTab
+0.5mm holes and 3mm wide tab
+OSHPark recommended panel tab
+0
+0
+0
+pkl_mechanical
+OSHTab-2mm
+0.5mm holes and 3mm wide tab
+OSHPark recommended panel tab
+0
+0
+0
+pkl_mechanical
+OSHTab-4.45mm
+0.5mm holes and 6.5mm wide tab
+OSHPark recommended panel tab
+0
+0
+0
+pkl_mechanical
+OSHTab-6.5mm
+0.5mm holes and 6.5mm wide tab
+OSHPark recommended panel tab
+0
+0
+0
+pkl_mechanical
+OSHTabSlim-2mm
+0.5mm holes and 3mm wide tab
+OSHPark recommended panel tab
+0
+0
+0
