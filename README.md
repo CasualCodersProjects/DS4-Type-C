@@ -1,7 +1,11 @@
 # DS4-Type-C
 Hate microUSB? Looking to decrease cable clutter? This is the PS4 mod for you. This repo aims to host mostly drop-in USB Type C replacement boards for all revisions of PS4 controller. The goal for each board is to follow the USB Type C standard, and to include pads for those who wish to impedance match the USB data lines. Either solder in resistors here to compensate, or simply use a solder/wire bridge. The overall project goal is to keep all possible parts the same between boards, and to make it reasonablly easy for a person of moderate skill to populate these boards as they are with no modifications necessary. This is an open source project though, so you're free to download [KiCad](https://www.kicad.org/download/) and start making modifications to these boards so that you can more easily populate them.
 
-I used a 0.8mm PCB when I originally made these, and found it worked quite well. Gives a little more room to work inside the controller. Cost will likely depend on which board house you choose to go through.  
+I used a 0.8mm PCB when I originally made these, and found it worked quite well. Gives a little more room to work inside the controller. Cost will likely depend on which board house you choose to go through. 
+
+## A tindie store though Casual Coders is in the works. Expect to see that link here around April 2022.
+
+
 # Turotial To Manufacture and asemble these boards.
 [![Tutorial to manufacture these boards](https://img.youtube.com/vi/DVEYy7VKs3Q/0.jpg)](http://www.youtube.com/watch?v=DVEYy7VKs3Q)
 
@@ -22,10 +26,21 @@ Work for this board was done [here](https://github.com/HDR/DualShock4-USB-C) by 
 ![Back](https://github.com/12ian3/DS4-Type-C/blob/main/001/001_Back.png)
 
 # JDS-011
-This board has not been started. Feel free to fork this project and make a PR if you own this board and wish to contribute. If all you can provide is schematics and dimensions, someone should be able to get a board made pretty quickly.
+Thanks to IcicaSora for providing the schematic for 011. See issue #1 for the schematic and dimensions. This is now a combined board with 001, utilizing the same components. The only change is as follows:
+
+## Parts Required for 011
+- The same parts as 001.
+- Sub the 14 pin FPC Connector for the 12-pin connector.
 
 # JDS-030
-As with JDS-011.
+Thanks to 12brendan3 for providing the schematic for 030. Unfortunately, 030 most likely cannot become a combined board since it sits as a transition between 011 and 040. 
+
+## Parts Required for 030
+- 1x Old RGB LED  
+- 2x 5.1kΩ Resistors  
+- 2x 0Ω Resistors  
+- 1x USB C Connector  
+- 1x Molex 12-pin FPC Connector 
 
 # JDS-040, JDS-050, and JDS-055
 Work for this board is complete. I verified that 040 functions the same as stock. This board is special in that it features connectors and compensation resistors for JDS-040, JDS-050, and JDS-055. The JDS-05X side is presently untested, but according to reddit user [u/Mcorgano](https://www.reddit.com/r/PS4Mods/comments/p2q3da/selling_dropin_replacement_type_c_charge_boards/h8oozja/) the pinout is supposedly the same between JDS-040 and JDS-055. The [idea](https://www.reddit.com/r/PS4Mods/comments/p2q3da/selling_dropin_replacement_type_c_charge_boards/h8os8rh/) for this dual board also comes from the same user.  
@@ -46,7 +61,8 @@ See the bottom of this document for sources, or use google to find these parts. 
 ![Back](https://github.com/12ian3/DS4-Type-C/blob/main/040%20055/040%20055_Back.png)
 
 # Universal
-The idea here is to create one "panelized" board which contains all above boards (JDS 001, 011, 030, 040, 050, 055). This means that someone could easily acquire a board for all controllers, then populate the one they need.
+The idea here is to create one "panelized" board which contains all above boards (JDS 001, 011, 030, 040, 050, 055). This means that someone could easily acquire a board for all controllers, then populate the one they need.  
+Work can now begin for this board. Though I've done enough work in March, so this will happen later.
 
 
 # Parts
