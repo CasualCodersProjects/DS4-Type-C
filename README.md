@@ -3,67 +3,34 @@ Hate microUSB? Looking to decrease cable clutter? This is the PS4 mod for you. T
 
 I used a 0.8mm PCB when I originally made these, and found it worked quite well. Gives a little more room to work inside the controller. Cost will likely depend on which board house you choose to go through. 
 
-## A tindie store though Casual Coders is in the works. Expect to see that link here around April 2022.
+#### *A tindie store though Casual Coders is in the works. Expect to see that link here around April 2022.*
 
-
-# Turotial To Manufacture and asemble these boards.
+## Turotial To Manufacture and asemble these boards.
 [![Tutorial to manufacture these boards](https://img.youtube.com/vi/DVEYy7VKs3Q/0.jpg)](http://www.youtube.com/watch?v=DVEYy7VKs3Q)
 
+# Supported boards
 
-# JDS-001
-Work for this board was done [here](https://github.com/HDR/DualShock4-USB-C) by Martin Refseth. I reworked his board to create kicad and schematic files for it. I also added compensation resistors as discussed above.
+| DS4 Board   | Tested  | PCB                   | Connector | Led | Pictures | Credits |
+|-------------|---------|-----------------------|----|--------|----------|---------|
+| **JDS-001** | &#9744; | [001-011](/001%20011) | 14 | Old | [Schematic](/001/001.svg), [Front](/001/001_Front.png), [Back](/001/001_Back.png) | [^cred001] |
+| **JDS-011** | &#9744; | [001-011](/001%20011) | 12 | Old | - | [^cred011] |
+| **JDS-030** | &#9744; | [030](/030)           | 12 | Old | - | [^cred030] |
+| **JDS-040** | &#9746; | [040-055](/040%20055) | 12 | New | [Schematic](/040%20055/040%20055.svg), [Front](/040%20055/040%20055_Front.png), [Back](/040%20055/040%20055_Back.png) | [^cred055] |
+| **JDS-05X** | &#9744; | [040-055](/040%20055) | 12 | New | [Schematic](/040%20055/040%20055.svg), [Front](/040%20055/040%20055_Front.png), [Back](/040%20055/040%20055_Back.png) | [^cred055] |
 
-## Parts Required for 001
-- 1x Old RGB LED  
-- 2x 5.1kΩ Resistors  
-- 2x 0Ω Resistors  
-- 1x USB C Connector  
-- 1x Molex 14-pin FPC Connector 
-
-## Pictures
-![Schematic](https://github.com/12ian3/DS4-Type-C/blob/main/001/001.svg)  
-![Front](https://github.com/12ian3/DS4-Type-C/blob/main/001/001_Front.png)  
-![Back](https://github.com/12ian3/DS4-Type-C/blob/main/001/001_Back.png)
-
-# JDS-011
-Thanks to IcicaSora for providing the schematic for 011. See issue #1 for the schematic and dimensions. This is now a combined board with 001, utilizing the same components. The only change is as follows:
-
-## Parts Required for 011
-- The same parts as 001.
-- Sub the 14 pin FPC Connector for the 12-pin connector.
-
-# JDS-030
-Thanks to 12brendan3 for providing the schematic for 030. Unfortunately, 030 most likely cannot become a combined board since it sits as a transition between 011 and 040. 
-
-## Parts Required for 030
-- 1x Old RGB LED  
-- 2x 5.1kΩ Resistors  
-- 2x 0Ω Resistors  
-- 1x USB C Connector  
-- 1x Molex 12-pin FPC Connector 
-
-# JDS-040, JDS-050, and JDS-055
-Work for this board is complete. I verified that 040 functions the same as stock. This board is special in that it features connectors and compensation resistors for JDS-040, JDS-050, and JDS-055. The JDS-05X side is presently untested, but according to reddit user [u/Mcorgano](https://www.reddit.com/r/PS4Mods/comments/p2q3da/selling_dropin_replacement_type_c_charge_boards/h8oozja/) the pinout is supposedly the same between JDS-040 and JDS-055. The [idea](https://www.reddit.com/r/PS4Mods/comments/p2q3da/selling_dropin_replacement_type_c_charge_boards/h8os8rh/) for this dual board also comes from the same user.  
+[^cred001]:
+    The original work for this board was done [here](https://github.com/HDR/DualShock4-USB-C) by Martin Refseth. I reworked his board to create kicad and schematic files for it. I also added compensation resistors as discussed above.
+[^cred011]:
+    Thanks to IcicaSora for providing the schematic for 011
+[^cred030]:
+    Thanks to 12brendan3 for providing the schematic for 030
+[^cred055]:
+    According to reddit user [u/Mcorgano](https://www.reddit.com/r/PS4Mods/comments/p2q3da/selling_dropin_replacement_type_c_charge_boards/h8oozja/) the pinout is supposedly the same between JDS-040 and JDS-055. The [idea](https://www.reddit.com/r/PS4Mods/comments/p2q3da/selling_dropin_replacement_type_c_charge_boards/h8os8rh/) for this dual board also comes from the same user.  
 As of 11/08/2021, the 055 pinout has been confirmed by reddit user [u/jrmanpt](https://old.reddit.com/r/PS4Mods/comments/p6g08b/open_sourcing_the_type_c_charge_boards_help_me/hjoxedu/)
-
-## Parts Required for 040/05X
-- 1x New RGB LED  
-- 2x 5.1kΩ Resistors  
-- 2x 0Ω Resistors  
-- 1x USB C Connector  
-- 1x Molex 12-pin FPC Connector  
-
-See the bottom of this document for sources, or use google to find these parts. It may often be cheaper to order multiples of an item, as this brings down the price when ordered in multiples of 10 on Mouser.
-
-## Pictures
-![Schematic](https://github.com/12ian3/DS4-Type-C/blob/main/040%20055/040%20055.svg)  
-![Front](https://github.com/12ian3/DS4-Type-C/blob/main/040%20055/040%20055_Front.png)  
-![Back](https://github.com/12ian3/DS4-Type-C/blob/main/040%20055/040%20055_Back.png)
-
-# Universal
+    
+### Universal
 The idea here is to create one "panelized" board which contains all above boards (JDS 001, 011, 030, 040, 050, 055). This means that someone could easily acquire a board for all controllers, then populate the one they need.  
 Work can now begin for this board. Though I've done enough work in March, so this will happen later.
-
 
 # Parts
 The goal with parts is to stay as consistent as possible between boards. Unfortunately, we have to use two types of RGB LED between the older and newer boards, but the goal is for this to be the only difference. Resistors are standardized to 0603 using the kicad hand_solder pads. We use USB type C connector C-31-M-12 to make soldering easy. Additionally, we use the Molex 530480 line of FPC connectors on all boards.  
