@@ -1,11 +1,11 @@
 # DS4-Type-C
-Hate microUSB? Looking to decrease cable clutter? This is the PS4 mod for you. This repo aims to host mostly drop-in USB Type C replacement boards for all revisions of PS4 controller. The goal for each board is to follow the USB Type C standard, and to include pads for those who wish to impedance match the USB data lines. Either solder in resistors here to compensate, or simply use a solder/wire bridge. The overall project goal is to keep all possible parts the same between boards, and to make it reasonablly easy for a person of moderate skill to populate these boards as they are with no modifications necessary. This is an open source project though, so you're free to download [KiCad](https://www.kicad.org/download/) and start making modifications to these boards so that you can more easily populate them.
+Hate microUSB? Looking to decrease cable clutter? This is the PS4 mod for you. This repo aims to host mostly drop-in USB Type C replacement boards for all revisions of PS4 controller. The goal for each board is to follow the USB Type C standard, and to include pads for those who wish to impedance match the USB data lines. Either solder in resistors here to compensate, or simply use a solder/wire bridge. The overall project goal is to keep all possible parts the same between boards, and to make it reasonablly easy for a person of moderate skill to populate these boards. This is an open source project though, so you're free to download [KiCad](https://www.kicad.org/download/) and start making modifications to these boards so that you can more easily populate them.
 
 I used a 0.8mm PCB when I originally made these, and found it worked quite well. Gives a little more room to work inside the controller. Cost will likely depend on which board house you choose to go through. 
 
-#### *A tindie store though Casual Coders is in the works. Expect to see that link here around April 2022.*
+#### *A tindie store through Casual Coders is in the works. Expect to see that link here around April 2022.*
 
-## Turotial To Manufacture and asemble these boards.
+## Tutorial To Manufacture and assemble these boards.
 [![Tutorial to manufacture these boards](https://img.youtube.com/vi/DVEYy7VKs3Q/0.jpg)](http://www.youtube.com/watch?v=DVEYy7VKs3Q)
 
 # Supported boards
@@ -16,7 +16,7 @@ I used a 0.8mm PCB when I originally made these, and found it worked quite well.
 | **JDS-011** | &#9744; | [001-011](/001%20011) | 12 | Old | - | [^cred011] |
 | **JDS-030** | &#9744; | [030](/030)           | 12 | Old | - | [^cred030] |
 | **JDS-040** | &#9746; | [040-055](/040%20055) | 12 | New | [Schematic](/040%20055/040%20055.svg), [Front](/040%20055/040%20055_Front.png), [Back](/040%20055/040%20055_Back.png) | [^cred055] |
-| **JDS-05X** | &#9744; | [040-055](/040%20055) | 12 | New | [Schematic](/040%20055/040%20055.svg), [Front](/040%20055/040%20055_Front.png), [Back](/040%20055/040%20055_Back.png) | [^cred055] |
+| **JDS-05X** | &#9746; | [040-055](/040%20055) | 12 | New | [Schematic](/040%20055/040%20055.svg), [Front](/040%20055/040%20055_Front.png), [Back](/040%20055/040%20055_Back.png) | [^cred055] |
 
 [^cred001]:
     The original work for this board was done [here](https://github.com/HDR/DualShock4-USB-C) by Martin Refseth. I reworked his board to create kicad and schematic files for it. I also added compensation resistors as discussed above.
@@ -30,7 +30,7 @@ As of 11/08/2021, the 055 pinout has been confirmed by reddit user [u/jrmanpt](h
     
 ### Universal
 The idea here is to create one "panelized" board which contains all above boards (JDS 001, 011, 030, 040, 050, 055). This means that someone could easily acquire a board for all controllers, then populate the one they need.  
-Work can now begin for this board. Though I've done enough work in March, so this will happen later.
+Work can now begin for this panel. Though I've done enough work in March, so this will happen later.
 
 # Parts
 The goal with parts is to stay as consistent as possible between boards. Unfortunately, we have to use two types of RGB LED between the older and newer boards, but the goal is for this to be the only difference. Resistors are standardized to 0603 using the kicad hand_solder pads. We use USB type C connector C-31-M-12 to make soldering easy. Additionally, we use the Molex 530480 line of FPC connectors on all boards.  
