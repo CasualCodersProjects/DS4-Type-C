@@ -28,7 +28,7 @@ I used a 0.8mm PCB when I originally made these, and found it worked quite well.
     According to reddit user [u/Mcorgano](https://www.reddit.com/r/PS4Mods/comments/p2q3da/selling_dropin_replacement_type_c_charge_boards/h8oozja/) the pinout is supposedly the same between JDS-040 and JDS-055. The [idea](https://www.reddit.com/r/PS4Mods/comments/p2q3da/selling_dropin_replacement_type_c_charge_boards/h8os8rh/) for this dual board also comes from the same user.  
 As of 11/08/2021, the 055 pinout has been confirmed by reddit user [u/jrmanpt](https://old.reddit.com/r/PS4Mods/comments/p6g08b/open_sourcing_the_type_c_charge_boards_help_me/hjoxedu/)
 [^credresistormatching]:
-    Thanks to CSab6482 in issue #4 for the suggestion to standardize the resistor numbering across all boards. Now R1/R1 are 5.1k and R3+ are 0 Ohm.
+    Thanks to CSab6482 in issue #4 for the suggestion to standardize the resistor numbering across all boards. Now R1/R2 are 5.1k and R3+ are 0 Ohm.
     
 ### Universal
 The idea here is to create one "panelized" board which contains all above boards (JDS 001, 011, 030, 040, 050, 055). This means that someone could easily acquire a board for all controllers, then populate the one they need.  
