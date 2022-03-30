@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr User 5197 5512
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -61,10 +61,10 @@ Connection ~ 1950 1700
 Wire Wire Line
 	1950 1700 2000 1700
 $Comp
-L Device:R R1
+L Device:R R3
 U 1 1 622719F9
 P 2200 1950
-F 0 "R1" V 2100 1900 50  0000 L CNN
+F 0 "R3" V 2100 1900 50  0000 L CNN
 F 1 "5.1k" V 2200 1850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2130 1950 50  0001 C CNN
 F 3 "~" H 2200 1950 50  0001 C CNN
@@ -72,10 +72,10 @@ F 3 "~" H 2200 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R2
+L Device:R R4
 U 1 1 62271E0B
 P 2300 1950
-F 0 "R2" V 2200 2000 50  0000 R CNN
+F 0 "R4" V 2200 2000 50  0000 R CNN
 F 1 "5.1k" V 2300 2050 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2230 1950 50  0001 C CNN
 F 3 "~" H 2300 1950 50  0001 C CNN
@@ -267,10 +267,10 @@ R
 Text Label 1900 3050 0    50   ~ 0
 G
 $Comp
-L Device:R R3
+L Device:R R1
 U 1 1 62270907
 P 1750 2000
-F 0 "R3" V 1650 1950 50  0000 L CNN
+F 0 "R1" V 1650 1950 50  0000 L CNN
 F 1 "comp" V 1750 1900 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1680 2000 50  0001 C CNN
 F 3 "~" H 1750 2000 50  0001 C CNN
@@ -278,10 +278,10 @@ F 3 "~" H 1750 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R4
+L Device:R R2
 U 1 1 62270BB0
 P 1950 2000
-F 0 "R4" V 1850 1950 50  0000 L CNN
+F 0 "R2" V 1850 1950 50  0000 L CNN
 F 1 "comp" V 1950 1900 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1880 2000 50  0001 C CNN
 F 3 "~" H 1950 2000 50  0001 C CNN

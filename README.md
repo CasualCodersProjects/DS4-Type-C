@@ -12,9 +12,9 @@ I used a 0.8mm PCB when I originally made these, and found it worked quite well.
 
 | DS4 Board   | Tested  | PCB                   | Connector | Led | Pictures | Credits |
 |-------------|---------|-----------------------|----|--------|----------|---------|
-| **JDS-001** | &#9744; | [001-011](/001%20011) | 14 | Old | [Schematic](/001/001.svg), [Front](/001/001_Front.png), [Back](/001/001_Back.png) | [^cred001] |
-| **JDS-011** | &#9744; | [001-011](/001%20011) | 12 | Old | - | [^cred011] |
-| **JDS-030** | &#9744; | [030](/030)           | 12 | Old | - | [^cred030] |
+| **JDS-001** | &#9744; | [001-011](/001%20011) | 14 | Old | [Schematic](/001%20011/001.svg), [Front](/001%20011/001_Front.png), [Back](/001%20011/001_Back.png) | [^cred001] |
+| **JDS-011** | &#9744; | [001-011](/001%20011) | 12 | Old | [Schematic](/001%20011/001.svg), [Front](/001%20011/001_Front.png), [Back](/001%20011/001_Back.png) | [^cred011] |
+| **JDS-030** | &#9744; | [030](/030)           | 12 | Old | [Schematic](/030/030.svg), [Front](/030/030_Front.png), [Back](/030/030_Back.png) | [^cred030] |
 | **JDS-040** | &#9746; | [040-055](/040%20055) | 12 | New | [Schematic](/040%20055/040%20055.svg), [Front](/040%20055/040%20055_Front.png), [Back](/040%20055/040%20055_Back.png) | [^cred055] |
 | **JDS-05X** | &#9746; | [040-055](/040%20055) | 12 | New | [Schematic](/040%20055/040%20055.svg), [Front](/040%20055/040%20055_Front.png), [Back](/040%20055/040%20055_Back.png) | [^cred055] |
 
@@ -43,3 +43,5 @@ Footprints or symbols which do not come with kicad by default are to be declared
 - FPC Connector - 12:   [503480-1200](https://www.mouser.com/ProductDetail/Molex/503480-1200?qs=%2Fha2pyFaduiit5JSGz5lsv1U%252BbZL3U56cNxg7eoCvCy3Ie8rHq3SFA%3D%3D)
 - FPC Connector - 14:   [503480-1400](https://www.mouser.com/ProductDetail/Molex/503480-1400?qs=%2Fha2pyFadujj30aImGpM0ckpak%252BVtmx2aY5U9nBD5Hh2NWtQuUTDBg%3D%3D)
 - Resistors:            [0603](https://www.mouser.com/Passive-Components/Resistors/Film-Resistors/Thin-Film-Resistors-SMD/_/N-7gz44?Keyword=0603&FS=True)
+    - 2x 5.1k Ohm (Allows C to C charging)
+    - 2x 0 Ohm (Optional. Use for Impedance matching)

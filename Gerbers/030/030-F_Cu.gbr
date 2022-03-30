@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(5.1.10)-1*%
-%TF.CreationDate,2022-03-08T18:47:31-05:00*%
+%TF.CreationDate,2022-03-29T20:59:08-04:00*%
 %TF.ProjectId,030,3033302e-6b69-4636-9164-5f7063625858,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L1,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.10)-1) date 2022-03-08 18:47:31*
+G04 Created by KiCad (PCBNEW (5.1.10)-1) date 2022-03-29 20:59:08*
 %MOMM*%
 %LPD*%
 G01*
@@ -117,7 +117,7 @@ D14*
 %TO.P,D1,7*%
 X109122000Y-71836000D03*
 %TD*%
-%TO.P,R1,1*%
+%TO.P,R3,1*%
 %TO.N,Net-(J2-PadA6)*%
 %TA.AperFunction,SMDPad,CuDef*%
 G36*
@@ -145,7 +145,7 @@ X106278500Y-55007500I0J-237500D01*
 G01*
 G37*
 %TD.AperFunction*%
-%TO.P,R1,2*%
+%TO.P,R3,2*%
 %TO.N,/D+*%
 %TA.AperFunction,SMDPad,CuDef*%
 G36*
@@ -174,7 +174,7 @@ G01*
 G37*
 %TD.AperFunction*%
 %TD*%
-%TO.P,R2,2*%
+%TO.P,R4,2*%
 %TO.N,/D-*%
 %TA.AperFunction,SMDPad,CuDef*%
 G36*
@@ -202,7 +202,7 @@ X104453500Y-56531500I0J-237500D01*
 G01*
 G37*
 %TD.AperFunction*%
-%TO.P,R2,1*%
+%TO.P,R4,1*%
 %TO.N,Net-(J2-PadA7)*%
 %TA.AperFunction,SMDPad,CuDef*%
 G36*
@@ -231,7 +231,7 @@ G01*
 G37*
 %TD.AperFunction*%
 %TD*%
-%TO.P,R3,1*%
+%TO.P,R1,1*%
 %TO.N,Net-(J2-PadB5)*%
 %TA.AperFunction,SMDPad,CuDef*%
 G36*
@@ -259,7 +259,7 @@ X106954500Y-53577500I0J237500D01*
 G01*
 G37*
 %TD.AperFunction*%
-%TO.P,R3,2*%
+%TO.P,R1,2*%
 %TO.N,GND*%
 %TA.AperFunction,SMDPad,CuDef*%
 G36*
@@ -288,7 +288,7 @@ G01*
 G37*
 %TD.AperFunction*%
 %TD*%
-%TO.P,R4,2*%
+%TO.P,R2,2*%
 %TO.N,Net-(J2-PadA5)*%
 %TA.AperFunction,SMDPad,CuDef*%
 G36*
@@ -316,7 +316,7 @@ X104692000Y-53577500I0J237500D01*
 G01*
 G37*
 %TD.AperFunction*%
-%TO.P,R4,1*%
+%TO.P,R2,1*%
 %TO.N,GND*%
 %TA.AperFunction,SMDPad,CuDef*%
 G36*
