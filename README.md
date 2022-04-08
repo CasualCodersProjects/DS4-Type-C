@@ -3,7 +3,7 @@ Hate microUSB? Looking to decrease cable clutter? This is the PS4 mod for you. T
 
 I used a 0.8mm PCB when I originally made these, and found it worked quite well. Gives a little more room to work inside the controller. Cost will likely depend on which board house you choose to go through. 
 
-#### *A tindie store through Casual Coders is in the works. Expect to see that link here around April 2022.*
+#### The Casual Coders Tindie store is now live! Head on over to [shop.casualcoders.dev](https://shop.casualcoders.dev) or [tindie.com/stores/casualcoders](https://www.tindie.com/stores/casualcoders/) (they're the same thing) if you'd like to purchase PCBs, Kits, or Pre-Assembled boards by one of us!
 
 ## Tutorial To Manufacture and assemble these boards.
 [![Tutorial to manufacture these boards](https://img.youtube.com/vi/DVEYy7VKs3Q/0.jpg)](http://www.youtube.com/watch?v=DVEYy7VKs3Q)
