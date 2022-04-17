@@ -36,17 +36,6 @@ F 3 "" H 950 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x14 J2
-U 1 1 611858EF
-P 3700 1600
-F 0 "J2" H 3780 1592 50  0000 L CNN
-F 1 "Conn_01x14" H 3780 1501 50  0000 L CNN
-F 2 "Molex 503480-1400:503480-1400" H 3700 1600 50  0001 C CNN
-F 3 "~" H 3700 1600 50  0001 C CNN
-	1    3700 1600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R1
 U 1 1 61186ED9
 P 2000 1150
@@ -68,50 +57,10 @@ F 3 "~" H 2000 1250 50  0001 C CNN
 	1    2000 1250
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:R R3
-U 1 1 61187F93
-P 2150 1500
-F 0 "R3" V 2050 1500 50  0000 C CNN
-F 1 "Comp" V 2150 1500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2080 1500 50  0001 C CNN
-F 3 "~" H 2150 1500 50  0001 C CNN
-	1    2150 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 611891C9
-P 2150 1700
-F 0 "R4" V 2250 1700 50  0000 C CNN
-F 1 "Comp" V 2150 1700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2080 1700 50  0001 C CNN
-F 3 "~" H 2150 1700 50  0001 C CNN
-	1    2150 1700
-	0    1    1    0   
-$EndComp
-Text Label 2400 1500 0    50   ~ 0
+Text Label 1800 1500 0    50   ~ 0
 d-
-Text Label 2400 1700 0    50   ~ 0
+Text Label 1800 1700 0    50   ~ 0
 d+
-Wire Wire Line
-	1700 1450 1700 1500
-Wire Wire Line
-	2000 1500 1700 1500
-Connection ~ 1700 1500
-Wire Wire Line
-	1700 1500 1700 1550
-Wire Wire Line
-	1700 1650 1700 1700
-Wire Wire Line
-	2000 1700 1700 1700
-Connection ~ 1700 1700
-Wire Wire Line
-	1700 1700 1700 1750
-Wire Wire Line
-	2300 1700 2400 1700
-Wire Wire Line
-	2400 1500 2300 1500
 Wire Wire Line
 	1850 1150 1700 1150
 Wire Wire Line
@@ -235,18 +184,6 @@ Wire Wire Line
 Connection ~ 2300 2500
 Wire Wire Line
 	2300 2500 2350 2500
-Wire Wire Line
-	2450 2500 2450 2200
-Wire Wire Line
-	2550 2500 2550 2100
-Wire Wire Line
-	2650 2500 2650 2000
-Wire Wire Line
-	2450 2200 3500 2200
-Wire Wire Line
-	2550 2100 3500 2100
-Wire Wire Line
-	2650 2000 3500 2000
 $Comp
 L power:VCC #PWR08
 U 1 1 621ACE38
@@ -261,12 +198,12 @@ $EndComp
 $Comp
 L power:VCC #PWR07
 U 1 1 621AD55C
-P 2300 2300
-F 0 "#PWR07" H 2300 2150 50  0001 C CNN
-F 1 "VCC" H 2315 2473 50  0000 C CNN
-F 2 "" H 2300 2300 50  0001 C CNN
-F 3 "" H 2300 2300 50  0001 C CNN
-	1    2300 2300
+P 2300 2000
+F 0 "#PWR07" H 2300 1850 50  0001 C CNN
+F 1 "VCC" H 2400 2050 50  0000 C CNN
+F 2 "" H 2300 2000 50  0001 C CNN
+F 3 "" H 2300 2000 50  0001 C CNN
+	1    2300 2000
 	1    0    0    -1  
 $EndComp
 Connection ~ 2300 2300
@@ -329,33 +266,31 @@ $EndComp
 Wire Wire Line
 	4650 1450 4500 1450
 Wire Wire Line
-	4500 1450 4500 1550
+	4500 1450 4500 1500
 Wire Wire Line
 	4500 1550 4650 1550
 $Comp
 L power:GND #PWR011
 U 1 1 6222D072
-P 4650 1650
-F 0 "#PWR011" H 4650 1400 50  0001 C CNN
-F 1 "GND" V 4655 1522 50  0000 R CNN
-F 2 "" H 4650 1650 50  0001 C CNN
-F 3 "" H 4650 1650 50  0001 C CNN
-	1    4650 1650
+P 4400 1650
+F 0 "#PWR011" H 4400 1400 50  0001 C CNN
+F 1 "GND" V 4350 1500 50  0000 R CNN
+F 2 "" H 4400 1650 50  0001 C CNN
+F 3 "" H 4400 1650 50  0001 C CNN
+	1    4400 1650
 	0    1    1    0   
 $EndComp
 $Comp
 L power:VCC #PWR012
 U 1 1 6222D542
-P 4650 1750
-F 0 "#PWR012" H 4650 1600 50  0001 C CNN
-F 1 "VCC" V 4665 1877 50  0000 L CNN
-F 2 "" H 4650 1750 50  0001 C CNN
-F 3 "" H 4650 1750 50  0001 C CNN
-	1    4650 1750
+P 4500 1500
+F 0 "#PWR012" H 4500 1350 50  0001 C CNN
+F 1 "VCC" V 4515 1627 50  0000 L CNN
+F 2 "" H 4500 1500 50  0001 C CNN
+F 3 "" H 4500 1500 50  0001 C CNN
+	1    4500 1500
 	0    -1   -1   0   
 $EndComp
-Text Label 4650 1850 2    50   ~ 0
-G
 Text Label 4650 1950 2    50   ~ 0
 R
 Text Label 4650 2050 2    50   ~ 0
@@ -371,10 +306,67 @@ F 3 "" H 4650 2150 50  0001 C CNN
 	1    4650 2150
 	0    1    1    0   
 $EndComp
-Text Label 2650 2000 0    50   ~ 0
+Text Label 2650 2500 1    50   ~ 0
 G
-Text Label 2550 2100 0    50   ~ 0
+Text Label 2550 2500 1    50   ~ 0
 R
-Text Label 2450 2200 0    50   ~ 0
+Text Label 2450 2500 1    50   ~ 0
 B
+$Comp
+L Device:R_Small R5
+U 1 1 625509C5
+P 2300 2150
+F 0 "R5" V 2300 2200 50  0000 R CNN
+F 1 "Bridge for 001" V 2400 2400 50  0000 R CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 2300 2150 50  0001 C CNN
+F 3 "~" H 2300 2150 50  0001 C CNN
+	1    2300 2150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2300 2250 2300 2300
+Wire Wire Line
+	2300 2000 2300 2050
+Text Label 2450 2300 0    50   ~ 0
+Annode
+Connection ~ 4500 1500
+Wire Wire Line
+	4500 1500 4500 1550
+Text Label 4650 1750 2    50   ~ 0
+Annode
+Text Label 4650 1850 2    50   ~ 0
+G
+Wire Wire Line
+	4400 1650 4650 1650
+Wire Wire Line
+	1700 1450 1700 1500
+Wire Wire Line
+	1700 1650 1700 1700
+Wire Wire Line
+	1800 1500 1700 1500
+Connection ~ 1700 1500
+Wire Wire Line
+	1700 1500 1700 1550
+Wire Wire Line
+	1800 1700 1700 1700
+Connection ~ 1700 1700
+Wire Wire Line
+	1700 1700 1700 1750
+Text Label 3500 2200 2    50   ~ 0
+B
+Text Label 3500 2100 2    50   ~ 0
+R
+Text Label 3500 2000 2    50   ~ 0
+G
+$Comp
+L Connector_Generic:Conn_01x14 J2
+U 1 1 611858EF
+P 3700 1600
+F 0 "J2" H 3780 1592 50  0000 L CNN
+F 1 "Conn_01x14" H 3780 1501 50  0000 L CNN
+F 2 "Molex 503480-1400:503480-1400" H 3700 1600 50  0001 C CNN
+F 3 "~" H 3700 1600 50  0001 C CNN
+	1    3700 1600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
