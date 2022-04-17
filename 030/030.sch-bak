@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr User 5197 5512
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -61,10 +61,10 @@ Connection ~ 1950 1700
 Wire Wire Line
 	1950 1700 2000 1700
 $Comp
-L Device:R R3
+L Device:R R1
 U 1 1 622719F9
 P 2200 1950
-F 0 "R3" V 2100 1900 50  0000 L CNN
+F 0 "R1" V 2100 1900 50  0000 L CNN
 F 1 "5.1k" V 2200 1850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2130 1950 50  0001 C CNN
 F 3 "~" H 2200 1950 50  0001 C CNN
@@ -72,10 +72,10 @@ F 3 "~" H 2200 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R4
+L Device:R R2
 U 1 1 62271E0B
 P 2300 1950
-F 0 "R4" V 2200 2000 50  0000 R CNN
+F 0 "R2" V 2200 2000 50  0000 R CNN
 F 1 "5.1k" V 2300 2050 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2230 1950 50  0001 C CNN
 F 3 "~" H 2300 1950 50  0001 C CNN
@@ -106,10 +106,6 @@ Wire Wire Line
 Wire Wire Line
 	2300 2150 2250 2150
 Connection ~ 2250 2150
-Text Label 1750 2150 3    50   ~ 0
-D+
-Text Label 1950 2150 3    50   ~ 0
-D-
 $Comp
 L power:+5V #PWR0104
 U 1 1 6227497E
@@ -185,16 +181,16 @@ $EndComp
 $Comp
 L power:+5V #PWR0109
 U 1 1 62279281
-P 900 2400
-F 0 "#PWR0109" H 900 2250 50  0001 C CNN
-F 1 "+5V" V 915 2528 50  0000 L CNN
-F 2 "" H 900 2400 50  0001 C CNN
-F 3 "" H 900 2400 50  0001 C CNN
-	1    900  2400
+P 900 2650
+F 0 "#PWR0109" H 900 2500 50  0001 C CNN
+F 1 "+5V" V 915 2778 50  0000 L CNN
+F 2 "" H 900 2650 50  0001 C CNN
+F 3 "" H 900 2650 50  0001 C CNN
+	1    900  2650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	900  2600 900  2700
+	900  2600 900  2650
 Text Label 900  3000 0    50   ~ 0
 D+
 Text Label 900  2900 0    50   ~ 0
@@ -205,6 +201,17 @@ Text Label 900  2200 0    50   ~ 0
 R
 Text Label 900  2100 0    50   ~ 0
 B
+Connection ~ 900  2650
+Wire Wire Line
+	900  2650 900  2700
+Text Label 900  2400 0    50   ~ 0
+Annode
+Text Label 2100 3050 1    50   ~ 0
+Annode
+Text Label 1600 3050 1    50   ~ 0
+Annode
+Text Label 1500 3050 1    50   ~ 0
+Annode
 $Comp
 L MSL0104RGB:MSL0104RGB D1
 U 1 1 6226D102
@@ -216,76 +223,16 @@ F 3 "" H 1800 3200 50  0001 C CNN
 	1    1800 3200
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:+5V #PWR0110
-U 1 1 6226E87F
-P 1500 3050
-F 0 "#PWR0110" H 1500 2900 50  0001 C CNN
-F 1 "+5V" H 1515 3223 50  0000 C CNN
-F 2 "" H 1500 3050 50  0001 C CNN
-F 3 "" H 1500 3050 50  0001 C CNN
-	1    1500 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0111
-U 1 1 6226F068
-P 2100 3050
-F 0 "#PWR0111" H 2100 2900 50  0001 C CNN
-F 1 "+5V" H 2115 3223 50  0000 C CNN
-F 2 "" H 2100 3050 50  0001 C CNN
-F 3 "" H 2100 3050 50  0001 C CNN
-	1    2100 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0112
-U 1 1 6226F88D
-P 1600 3050
-F 0 "#PWR0112" H 1600 2900 50  0001 C CNN
-F 1 "+5V" H 1615 3223 50  0000 C CNN
-F 2 "" H 1600 3050 50  0001 C CNN
-F 3 "" H 1600 3050 50  0001 C CNN
-	1    1600 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0113
-U 1 1 6226FB45
-P 2000 3050
-F 0 "#PWR0113" H 2000 2900 50  0001 C CNN
-F 1 "+5V" H 2015 3223 50  0000 C CNN
-F 2 "" H 2000 3050 50  0001 C CNN
-F 3 "" H 2000 3050 50  0001 C CNN
-	1    2000 3050
-	1    0    0    -1  
-$EndComp
-Text Label 1700 3050 0    50   ~ 0
-B
-Text Label 1800 3050 0    50   ~ 0
+Text Label 2000 3050 1    50   ~ 0
+Annode
+Text Label 1800 3050 1    50   ~ 0
 R
-Text Label 1900 3050 0    50   ~ 0
+Text Label 1900 3050 1    50   ~ 0
+B
+Text Label 1750 1850 3    50   ~ 0
+D+
+Text Label 1950 1850 3    50   ~ 0
+D-
+Text Label 1700 3050 1    50   ~ 0
 G
-$Comp
-L Device:R R1
-U 1 1 62270907
-P 1750 2000
-F 0 "R1" V 1650 1950 50  0000 L CNN
-F 1 "comp" V 1750 1900 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1680 2000 50  0001 C CNN
-F 3 "~" H 1750 2000 50  0001 C CNN
-	1    1750 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 62270BB0
-P 1950 2000
-F 0 "R2" V 1850 1950 50  0000 L CNN
-F 1 "comp" V 1950 1900 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1880 2000 50  0001 C CNN
-F 3 "~" H 1950 2000 50  0001 C CNN
-	1    1950 2000
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
