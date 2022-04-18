@@ -12,7 +12,7 @@ I used a 0.8mm PCB when I originally made these, and found it worked quite well.
 
 | DS4 Board   | Tested  | PCB                   | Connector | Led | Pictures | Credits |
 |-------------|---------|-----------------------|----|--------|----------|---------|
-| **JDS-001** | &#9744; | [001-011](/001%20011) | 14 | Old | [Schematic](/001%20011/001.svg), [Front](/001%20011/001_Front.png), [Back](/001%20011/001_Back.png) | [^cred001] |
+| **JDS-001** | &#9746; | [001-011](/001%20011) | 14 | Old | [Schematic](/001%20011/001.svg), [Front](/001%20011/001_Front.png), [Back](/001%20011/001_Back.png) | [^cred001] |
 | **JDS-011** | Untested - Fixed Pinout(?) | [001-011](/001%20011) | 12 | Old | [Schematic](/001%20011/001.svg), [Front](/001%20011/001_Front.png), [Back](/001%20011/001_Back.png) | [^cred011] |
 | **JDS-030** | Untested - Fixed Pinout(?) | [030](/030)           | 12 | Old | [Schematic](/030/030.svg), [Front](/030/030_Front.png), [Back](/030/030_Back.png) | [^cred030] |
 | **JDS-040** | &#9746; | [040-055](/040%20055) | 12 | New | [Schematic](/040%20055/040%20055.svg), [Front](/040%20055/040%20055_Front.png), [Back](/040%20055/040%20055_Back.png) | [^cred055] |
