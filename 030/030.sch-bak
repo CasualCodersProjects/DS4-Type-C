@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:USB_C_Receptacle_USB2.0 J2
+L Connector:USB_C_Receptacle_USB2.0 USB
 U 1 1 6226C837
 P 1900 1100
-F 0 "J2" V 1961 1830 50  0000 L CNN
+F 0 "USB" V 1961 1830 50  0000 L CNN
 F 1 "USB_C_Receptacle_USB2.0" V 2052 1830 50  0000 L CNN
 F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 2050 1100 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2050 1100 50  0001 C CNN
@@ -128,7 +128,7 @@ L Connector_Generic:Conn_01x12 J1
 U 1 1 622766B6
 P 700 2600
 F 0 "J1" H 618 1775 50  0000 C CNN
-F 1 "Conn_01x12" H 618 1866 50  0000 C CNN
+F 1 "030" H 618 1866 50  0000 C CNN
 F 2 "Molex 5034801200:503480-1200" H 700 2600 50  0001 C CNN
 F 3 "~" H 700 2600 50  0001 C CNN
 	1    700  2600
@@ -206,33 +206,27 @@ Wire Wire Line
 	900  2650 900  2700
 Text Label 900  2400 0    50   ~ 0
 Annode
-Text Label 2100 3050 1    50   ~ 0
+Text Label 1750 2500 1    50   ~ 0
 Annode
-Text Label 1600 3050 1    50   ~ 0
-Annode
-Text Label 1500 3050 1    50   ~ 0
-Annode
-$Comp
-L MSL0104RGB:MSL0104RGB D1
-U 1 1 6226D102
-P 1800 3200
-F 0 "D1" H 1372 3291 50  0000 R CNN
-F 1 "MSL0104RGB" H 1372 3382 50  0000 R CNN
-F 2 "MSL0104RGB:MSL0104RGB" H 1800 3200 50  0001 C CNN
-F 3 "" H 1800 3200 50  0001 C CNN
-	1    1800 3200
-	-1   0    0    1   
-$EndComp
-Text Label 2000 3050 1    50   ~ 0
-Annode
-Text Label 1800 3050 1    50   ~ 0
+Text Label 1550 2900 3    50   ~ 0
 R
-Text Label 1900 3050 1    50   ~ 0
+Text Label 1950 2900 3    50   ~ 0
 B
 Text Label 1750 1850 3    50   ~ 0
 D+
 Text Label 1950 1850 3    50   ~ 0
 D-
-Text Label 1700 3050 1    50   ~ 0
+Text Label 1750 2900 3    50   ~ 0
 G
+$Comp
+L Device:LED_RAGB LED
+U 1 1 625DCB12
+P 1750 2700
+F 0 "LED" V 1796 2370 50  0000 R CNN
+F 1 "LED_RAGB" V 1705 2370 50  0000 R CNN
+F 2 "" H 1750 2650 50  0001 C CNN
+F 3 "~" H 1750 2650 50  0001 C CNN
+	1    1750 2700
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

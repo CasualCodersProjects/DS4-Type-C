@@ -158,33 +158,6 @@ Wire Wire Line
 Wire Wire Line
 	3500 2300 3300 2300
 $Comp
-L MSL0104RGB:MSL0104RGB D1
-U 1 1 6119707E
-P 2550 2650
-F 0 "D1" H 2122 2741 50  0000 R CNN
-F 1 "MSL0104RGB" H 2800 3150 50  0000 R CNN
-F 2 "MSL0104RGB:MSL0104RGB" H 2550 2650 50  0001 C CNN
-F 3 "" H 2550 2650 50  0001 C CNN
-	1    2550 2650
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2850 2500 2800 2500
-Wire Wire Line
-	2250 2500 2300 2500
-Wire Wire Line
-	2800 2500 2800 2300
-Wire Wire Line
-	2800 2300 2300 2300
-Wire Wire Line
-	2300 2300 2300 2500
-Connection ~ 2800 2500
-Wire Wire Line
-	2800 2500 2750 2500
-Connection ~ 2300 2500
-Wire Wire Line
-	2300 2500 2350 2500
-$Comp
 L power:VCC #PWR08
 U 1 1 621ACE38
 P 3200 1700
@@ -206,7 +179,6 @@ F 3 "" H 2300 2000 50  0001 C CNN
 	1    2300 2000
 	1    0    0    -1  
 $EndComp
-Connection ~ 2300 2300
 $Comp
 L power:VCC #PWR06
 U 1 1 621AC206
@@ -306,11 +278,11 @@ F 3 "" H 4650 2150 50  0001 C CNN
 	1    4650 2150
 	0    1    1    0   
 $EndComp
-Text Label 2650 2500 1    50   ~ 0
+Text Label 2300 2900 3    50   ~ 0
 G
-Text Label 2550 2500 1    50   ~ 0
+Text Label 2100 2900 3    50   ~ 0
 R
-Text Label 2450 2500 1    50   ~ 0
+Text Label 2500 2900 3    50   ~ 0
 B
 $Comp
 L Device:R_Small R5
@@ -324,10 +296,8 @@ F 3 "~" H 2300 2150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	2300 2250 2300 2300
-Wire Wire Line
 	2300 2000 2300 2050
-Text Label 2450 2300 0    50   ~ 0
+Text Label 2300 2400 0    50   ~ 0
 Annode
 Connection ~ 4500 1500
 Wire Wire Line
@@ -369,4 +339,17 @@ F 3 "~" H 3700 1600 50  0001 C CNN
 	1    3700 1600
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:LED_RAGB D1
+U 1 1 625CBE9C
+P 2300 2700
+F 0 "D1" V 2346 2370 50  0000 R CNN
+F 1 "LED_RAGB" V 2255 2370 50  0000 R CNN
+F 2 "New_LED:FM-3510RGBA-SG" H 2300 2650 50  0001 C CNN
+F 3 "~" H 2300 2650 50  0001 C CNN
+	1    2300 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2300 2250 2300 2500
 $EndSCHEMATC

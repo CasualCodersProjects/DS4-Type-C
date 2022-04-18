@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name MSL0104RGB)(type KiCad)(uri ${KIPRJMOD}/MSL0104RGB.pretty)(options "")(descr ""))
+  (lib (name New_LED)(type KiCad)(uri "D:/Ian/Documents/Projects/DS4-Type-C/001 011/New_LED.pretty")(options "")(descr ""))
 )
