@@ -64,11 +64,11 @@
       35,
       36
     ],
-    "visible_layers": "00311f0_80000001",
+    "visible_layers": "00051f0_80000001",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "040 055.kicad_prl",
+    "filename": "011.kicad_prl",
     "version": 3
   },
   "project": {
