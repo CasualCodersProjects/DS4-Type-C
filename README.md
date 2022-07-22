@@ -49,4 +49,4 @@ Footprints or symbols which do not come with kicad by default are to be declared
 - FPC Connector - 12:   [503480-1200](https://www.lcsc.com/product-detail/FFC-FPC-Connectors_MOLEX-5034801200_C587969.html)
 - FPC Connector - 14:   [503480-1400](https://www.mouser.com/ProductDetail/Molex/503480-1400?qs=%2Fha2pyFadujj30aImGpM0ckpak%252BVtmx2aY5U9nBD5Hh2NWtQuUTDBg%3D%3D)
 - Resistors:            [0603](https://www.mouser.com/Passive-Components/Resistors/Film-Resistors/Thin-Film-Resistors-SMD/_/N-7gz44?Keyword=0603&FS=True)
-    - 2x 5.1k Ohm (Allows C to C charging) R1/R2)
+    - 2x 5.1k Ohm (Allows C to C charging)
