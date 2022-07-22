@@ -1,4 +1,4 @@
-19252191866473865
+19222641116097111
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -2274,6 +2274,13 @@ speaker CUI
 0
 2
 2
+CC_Logos
+CC Logo 5.2mm
+
+
+0
+0
+0
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -56217,33 +56224,12 @@ Yellow 5381 Series LED
 2
 2
 MSL0104RGB
-3.5mm CC_Logo
-
-
-0
-0
-0
-MSL0104RGB
 MSL0104RGB
 
 
 0
 7
 7
-MSL0104RGB
-oddity
-
-
-0
-0
-0
-MSL0104RGB
-oddity_mask
-
-
-0
-0
-0
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -56391,13 +56377,6 @@ ESP8266 WiFi microcontroller
 0
 16
 16
-Molex 503480-1400
-503480-1400
-
-
-0
-16
-14
 Molex 5034801200
 503480-1200
 
@@ -58796,6 +58775,13 @@ NetTie
 NetTie-4_THT_Pad1.0mm
 Net tie, 4 pin, 1.0mm round THT pads
 net tie
+0
+4
+4
+New_LED
+FM-3510RGBA-SG
+
+
 0
 4
 4
@@ -83075,80 +83061,3 @@ varistor SIOV
 0
 2
 2
-mousebites
-mouse-bite-1mm-slot
-
-
-0
-0
-0
-mousebites
-mouse-bite-2.54mm-slot
-
-
-0
-0
-0
-mousebites
-mouse-bite-2mm-slot
-
-
-0
-0
-0
-mousebites
-mouse-bite-3mm-slot
-
-
-0
-0
-0
-mousebites
-mouse-bite-5mm-slot
-
-
-0
-0
-0
-pkl_mechanical
-MountingHole_3mm
-Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,
-Mounting hole, Befestigungsbohrung, 3mm, No Annular, Kein Restring,
-0
-1
-0
-pkl_mechanical
-OSHTab
-0.5mm holes and 3mm wide tab
-OSHPark recommended panel tab
-0
-0
-0
-pkl_mechanical
-OSHTab-2mm
-0.5mm holes and 3mm wide tab
-OSHPark recommended panel tab
-0
-0
-0
-pkl_mechanical
-OSHTab-4.45mm
-0.5mm holes and 6.5mm wide tab
-OSHPark recommended panel tab
-0
-0
-0
-pkl_mechanical
-OSHTab-6.5mm
-0.5mm holes and 6.5mm wide tab
-OSHPark recommended panel tab
-0
-0
-0
-pkl_mechanical
-OSHTabSlim-2mm
-0.5mm holes and 3mm wide tab
-OSHPark recommended panel tab
-0
-0
-0

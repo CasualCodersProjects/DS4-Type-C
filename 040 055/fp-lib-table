@@ -1,5 +1,6 @@
 (fp_lib_table
-  (lib (name "040 055")(type KiCad)(uri "${KIPRJMOD}/040 055.pretty")(options "")(descr ""))
-  (lib (name MSL0601RGBU1)(type KiCad)(uri ${KIPRJMOD}/MSL0601RGBU1.pretty)(options "")(descr ""))
+  (lib (name "040 055")(type KiCad)(uri "${KIPRJMOD}/040 055.pretty")(options "")(descr "")(disabled))
+  (lib (name MSL0601RGBU1)(type KiCad)(uri ${KIPRJMOD}/MSL0601RGBU1.pretty)(options "")(descr "")(disabled))
   (lib (name "Molex 503480-1200")(type KiCad)(uri "${KIPRJMOD}/Molex 503480-1200.pretty")(options "")(descr ""))
+  (lib (name New_LED)(type KiCad)(uri "D:/Ian/Documents/Projects/DS4-Type-C/001 011/New_LED.pretty")(options "")(descr ""))
 )

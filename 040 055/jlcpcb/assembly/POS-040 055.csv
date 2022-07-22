@@ -1,0 +1,6 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+J1,USB,USB_C_Receptacle_HRO_TYPE-C-31-M-12,138.6,-67.05,0.0,bottom
+J2,040,503480-1200,129.75,-70.0,-71.0,top
+J3,05x,503480-1200,147.3,-70.0,71.0,top
+R1,5.1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,136.6625,-66.1,180.0,top
+R2,5.1k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,140.5125,-66.1,180.0,top
