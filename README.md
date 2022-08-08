@@ -40,10 +40,6 @@ This is not something I plan to do anymore. If you'd like to do this and submit 
  -Ian
 
 # Parts
-The goal with parts is to stay as consistent as possible between boards. Unfortunately, we have to use two types of RGB LED between the older and newer boards, but the goal is for this to be the only difference. Resistors are standardized to 0603 using the kicad hand_solder pads. We use USB type C connector C-31-M-12 to make soldering easy. Additionally, we use the Molex 530480 line of FPC connectors on all boards.  
-
-Footprints or symbols which do not come with kicad by default are to be declared as project libraries, and included in the board directory as .pretty files. See 040 055 for as a reference.  
-
 - RGB LED:          [FM-3510RGBA-SG](https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-FM-3510RGBA-SG_C727903.html)
 - USB Type C:           [Type-C-31-M-12](https://www.lcsc.com/product-detail/USB-Type-C_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.html)
 - FPC Connector - 12:   [503480-1200](https://www.lcsc.com/product-detail/FFC-FPC-Connectors_MOLEX-5034801200_C587969.html)
