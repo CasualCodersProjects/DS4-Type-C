@@ -1,0 +1,355 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 5906 5118
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J1
+U 1 1 61182E03
+P 1100 1550
+F 0 "J1" H 1207 2417 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 1207 2326 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 1250 1550 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1250 1550 50  0001 C CNN
+	1    1100 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 61185054
+P 950 2550
+F 0 "#PWR01" H 950 2300 50  0001 C CNN
+F 1 "GND" H 955 2377 50  0000 C CNN
+F 2 "" H 950 2550 50  0001 C CNN
+F 3 "" H 950 2550 50  0001 C CNN
+	1    950  2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 61186ED9
+P 2000 1150
+F 0 "R1" V 1900 1150 50  0000 C CNN
+F 1 "5.1k" V 2000 1150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1930 1150 50  0001 C CNN
+F 3 "~" H 2000 1150 50  0001 C CNN
+	1    2000 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 61187A14
+P 2000 1250
+F 0 "R2" V 2100 1250 50  0000 C CNN
+F 1 "5.1k" V 2000 1250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1930 1250 50  0001 C CNN
+F 3 "~" H 2000 1250 50  0001 C CNN
+	1    2000 1250
+	0    1    1    0   
+$EndComp
+Text Label 1800 1500 0    50   ~ 0
+d-
+Text Label 1800 1700 0    50   ~ 0
+d+
+Wire Wire Line
+	1850 1150 1700 1150
+Wire Wire Line
+	1850 1250 1700 1250
+Wire Wire Line
+	2150 1150 2150 1200
+$Comp
+L power:GND #PWR02
+U 1 1 6118AE19
+P 2200 1200
+F 0 "#PWR02" H 2200 950 50  0001 C CNN
+F 1 "GND" V 2205 1072 50  0000 R CNN
+F 2 "" H 2200 1200 50  0001 C CNN
+F 3 "" H 2200 1200 50  0001 C CNN
+	1    2200 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 1200 2150 1200
+Connection ~ 2150 1200
+Wire Wire Line
+	2150 1200 2150 1250
+Wire Wire Line
+	1100 2450 950  2450
+Wire Wire Line
+	950  2550 950  2450
+Connection ~ 950  2450
+Wire Wire Line
+	950  2450 800  2450
+Wire Wire Line
+	3500 1100 3250 1100
+Wire Wire Line
+	3250 1100 3250 1200
+Wire Wire Line
+	3250 1300 3500 1300
+$Comp
+L power:GND #PWR03
+U 1 1 6118CE0B
+P 3250 1200
+F 0 "#PWR03" H 3250 950 50  0001 C CNN
+F 1 "GND" V 3255 1072 50  0000 R CNN
+F 2 "" H 3250 1200 50  0001 C CNN
+F 3 "" H 3250 1200 50  0001 C CNN
+	1    3250 1200
+	0    1    1    0   
+$EndComp
+Connection ~ 3250 1200
+Wire Wire Line
+	3250 1200 3250 1300
+Wire Wire Line
+	3500 1000 3250 1000
+Wire Wire Line
+	3250 1000 3250 1100
+Connection ~ 3250 1100
+Wire Wire Line
+	3500 1500 3250 1500
+Wire Wire Line
+	3250 1500 3250 1300
+Connection ~ 3250 1300
+Wire Wire Line
+	3500 1600 3500 1700
+Connection ~ 3500 1700
+Wire Wire Line
+	3500 1700 3500 1800
+Wire Wire Line
+	3500 1700 3200 1700
+Text Label 3500 1200 2    50   ~ 0
+d+
+Text Label 3500 1400 2    50   ~ 0
+d-
+$Comp
+L power:GND #PWR04
+U 1 1 6118F285
+P 3300 1900
+F 0 "#PWR04" H 3300 1650 50  0001 C CNN
+F 1 "GND" V 3305 1772 50  0000 R CNN
+F 2 "" H 3300 1900 50  0001 C CNN
+F 3 "" H 3300 1900 50  0001 C CNN
+	1    3300 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 6118F8B2
+P 3300 2300
+F 0 "#PWR05" H 3300 2050 50  0001 C CNN
+F 1 "GND" V 3305 2172 50  0000 R CNN
+F 2 "" H 3300 2300 50  0001 C CNN
+F 3 "" H 3300 2300 50  0001 C CNN
+	1    3300 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3500 1900 3300 1900
+Wire Wire Line
+	3500 2300 3300 2300
+$Comp
+L power:VCC #PWR08
+U 1 1 621ACE38
+P 3200 1700
+F 0 "#PWR08" H 3200 1550 50  0001 C CNN
+F 1 "VCC" H 3100 1700 50  0000 C CNN
+F 2 "" H 3200 1700 50  0001 C CNN
+F 3 "" H 3200 1700 50  0001 C CNN
+	1    3200 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR07
+U 1 1 621AD55C
+P 2300 2000
+F 0 "#PWR07" H 2300 1850 50  0001 C CNN
+F 1 "VCC" H 2400 2050 50  0000 C CNN
+F 2 "" H 2300 2000 50  0001 C CNN
+F 3 "" H 2300 2000 50  0001 C CNN
+	1    2300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR06
+U 1 1 621AC206
+P 1950 900
+F 0 "#PWR06" H 1950 750 50  0001 C CNN
+F 1 "VCC" H 2050 900 50  0000 C CNN
+F 2 "" H 1950 900 50  0001 C CNN
+F 3 "" H 1950 900 50  0001 C CNN
+	1    1950 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 950  1950 950 
+Wire Wire Line
+	1950 950  1950 900 
+$Comp
+L Connector_Generic:Conn_01x12 J3
+U 1 1 622288ED
+P 4850 1550
+F 0 "J3" H 4930 1542 50  0000 L CNN
+F 1 "Conn_01x12" H 4930 1451 50  0000 L CNN
+F 2 "Molex 5034801200:503480-1200" H 4850 1550 50  0001 C CNN
+F 3 "~" H 4850 1550 50  0001 C CNN
+	1    4850 1550
+	1    0    0    -1  
+$EndComp
+Text Notes 3250 900  0    50   ~ 0
+JDS-001
+Text Notes 4550 950  0    50   ~ 0
+JDS-011
+$Comp
+L power:GND #PWR09
+U 1 1 6222AF9C
+P 4650 1050
+F 0 "#PWR09" H 4650 800 50  0001 C CNN
+F 1 "GND" V 4655 922 50  0000 R CNN
+F 2 "" H 4650 1050 50  0001 C CNN
+F 3 "" H 4650 1050 50  0001 C CNN
+	1    4650 1050
+	0    1    1    0   
+$EndComp
+Text Label 4650 1150 2    50   ~ 0
+d+
+Text Label 4650 1250 2    50   ~ 0
+d-
+$Comp
+L power:GND #PWR010
+U 1 1 6222BE64
+P 4650 1350
+F 0 "#PWR010" H 4650 1100 50  0001 C CNN
+F 1 "GND" V 4655 1222 50  0000 R CNN
+F 2 "" H 4650 1350 50  0001 C CNN
+F 3 "" H 4650 1350 50  0001 C CNN
+	1    4650 1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 1450 4500 1450
+Wire Wire Line
+	4500 1450 4500 1500
+Wire Wire Line
+	4500 1550 4650 1550
+$Comp
+L power:GND #PWR011
+U 1 1 6222D072
+P 4400 1650
+F 0 "#PWR011" H 4400 1400 50  0001 C CNN
+F 1 "GND" V 4350 1500 50  0000 R CNN
+F 2 "" H 4400 1650 50  0001 C CNN
+F 3 "" H 4400 1650 50  0001 C CNN
+	1    4400 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR012
+U 1 1 6222D542
+P 4500 1500
+F 0 "#PWR012" H 4500 1350 50  0001 C CNN
+F 1 "VCC" V 4515 1627 50  0000 L CNN
+F 2 "" H 4500 1500 50  0001 C CNN
+F 3 "" H 4500 1500 50  0001 C CNN
+	1    4500 1500
+	0    -1   -1   0   
+$EndComp
+Text Label 4650 1950 2    50   ~ 0
+R
+Text Label 4650 2050 2    50   ~ 0
+B
+$Comp
+L power:GND #PWR013
+U 1 1 6222EAD6
+P 4650 2150
+F 0 "#PWR013" H 4650 1900 50  0001 C CNN
+F 1 "GND" V 4655 2022 50  0000 R CNN
+F 2 "" H 4650 2150 50  0001 C CNN
+F 3 "" H 4650 2150 50  0001 C CNN
+	1    4650 2150
+	0    1    1    0   
+$EndComp
+Text Label 2300 2900 3    50   ~ 0
+G
+Text Label 2100 2900 3    50   ~ 0
+R
+Text Label 2500 2900 3    50   ~ 0
+B
+$Comp
+L Device:R_Small R5
+U 1 1 625509C5
+P 2300 2150
+F 0 "R5" V 2300 2200 50  0000 R CNN
+F 1 "Bridge for 001" V 2400 2400 50  0000 R CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" H 2300 2150 50  0001 C CNN
+F 3 "~" H 2300 2150 50  0001 C CNN
+	1    2300 2150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2300 2000 2300 2050
+Text Label 2300 2400 0    50   ~ 0
+Annode
+Connection ~ 4500 1500
+Wire Wire Line
+	4500 1500 4500 1550
+Text Label 4650 1750 2    50   ~ 0
+Annode
+Text Label 4650 1850 2    50   ~ 0
+G
+Wire Wire Line
+	4400 1650 4650 1650
+Wire Wire Line
+	1700 1450 1700 1500
+Wire Wire Line
+	1700 1650 1700 1700
+Wire Wire Line
+	1800 1500 1700 1500
+Connection ~ 1700 1500
+Wire Wire Line
+	1700 1500 1700 1550
+Wire Wire Line
+	1800 1700 1700 1700
+Connection ~ 1700 1700
+Wire Wire Line
+	1700 1700 1700 1750
+Text Label 3500 2200 2    50   ~ 0
+B
+Text Label 3500 2100 2    50   ~ 0
+R
+Text Label 3500 2000 2    50   ~ 0
+G
+$Comp
+L Connector_Generic:Conn_01x14 J2
+U 1 1 611858EF
+P 3700 1600
+F 0 "J2" H 3780 1592 50  0000 L CNN
+F 1 "Conn_01x14" H 3780 1501 50  0000 L CNN
+F 2 "Molex 503480-1400:503480-1400" H 3700 1600 50  0001 C CNN
+F 3 "~" H 3700 1600 50  0001 C CNN
+	1    3700 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_RAGB D1
+U 1 1 625CBE9C
+P 2300 2700
+F 0 "D1" V 2346 2370 50  0000 R CNN
+F 1 "LED_RAGB" V 2255 2370 50  0000 R CNN
+F 2 "New_LED:FM-3510RGBA-SG" H 2300 2650 50  0001 C CNN
+F 3 "~" H 2300 2650 50  0001 C CNN
+	1    2300 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2300 2250 2300 2500
+$EndSCHEMATC
