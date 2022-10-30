@@ -16,7 +16,7 @@ I used a 0.8mm PCB when I originally made these, and found it worked quite well.
 
 | DS4 Board   | Tested  | PCB                   | Connector | Pictures | Credits |
 |-------------|---------|-----------------------|--------|----------|---------|
-| **JDS-001** | Unsupported |  | 14 | N/A | [^cred001] |
+| **JDS-001** | ✗ | [001](/001) | 14 | [Schematic](/001/001.svg), [Front](/001/001_Front.png), [Back](/001/001_Back.png) | [^cred001] |
 | **JDS-011** | ✔ | [011](/011) | 12 | [Schematic](/011/011.svg), [Front](/011/011_Front.png), [Back](/011/011_Back.png) | [^cred011] [^cred001] |
 | **JDS-030** | ✔ | [030](/030)           | 12 | [Schematic](/030/030.svg), [Front](/030/030_Front.png), [Back](/030/030_Back.png) | [^cred030] |
 | **JDS-040** | ✔ | [040-055](/040%20055) | 12 | [Schematic](/040%20055/040%20055.svg), [Front](/040%20055/040%20055_Front.png), [Back](/040%20055/040%20055_Back.png) | [^cred055] |
