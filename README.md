@@ -1,6 +1,6 @@
 # DS4-Type-C
 ## Heads up!
-This project has reached EOL. It is no longer under active development. PRs will be merged, but I no longer intend to update boards. Feel free to use all of the info provided here to make modifications to boards like useing new parts or LEDs. These are pretty basic though, so this should hopefully hold until the DS4 controller is well discontinued.
+This project has reached EOL. It is no longer under active development. PRs will be merged, but I no longer intend to update boards. Feel free to use all of the info provided here to make modifications to boards like using new parts or LEDs. These are pretty basic though, so this should hopefully hold until the DS4 controller is well discontinued.
 
 ## Background
 Hate microUSB? Looking to decrease cable clutter? This is the PS4 mod for you. This repo aims to host mostly drop-in USB Type C replacement boards for all revisions of PS4 controller. The goal for each board is to follow the USB Type C standard, and to include pads for those who wish to impedance match the USB data lines. Either solder in resistors here to compensate, or simply use a solder/wire bridge. The overall project goal is to keep all possible parts the same between boards, and to make it reasonablly easy for a person of moderate skill to populate these boards. This is an open source project though, so you're free to download [KiCad](https://www.kicad.org/download/) and start making modifications to these boards so that you can more easily populate them.
