@@ -1,6 +1,6 @@
 # DS4-Type-C
 ## Heads up!
-This project has reached EOL. It is no longer under active development. PRs will be merged, but I no longer intend to update boards. Feel free to use all of the info provided here to create the JDS-001 PCB if necessary, or make modifications to boards to use new parts or LEDs. These are pretty basic though, so this should hopefully hold until the DS4 controller is well discontinued.
+This project has reached EOL. It is no longer under active development. PRs will be merged, but I no longer intend to update boards. Feel free to use all of the info provided here to make modifications to boards like useing new parts or LEDs. These are pretty basic though, so this should hopefully hold until the DS4 controller is well discontinued.
 
 ## Background
 Hate microUSB? Looking to decrease cable clutter? This is the PS4 mod for you. This repo aims to host mostly drop-in USB Type C replacement boards for all revisions of PS4 controller. The goal for each board is to follow the USB Type C standard, and to include pads for those who wish to impedance match the USB data lines. Either solder in resistors here to compensate, or simply use a solder/wire bridge. The overall project goal is to keep all possible parts the same between boards, and to make it reasonablly easy for a person of moderate skill to populate these boards. This is an open source project though, so you're free to download [KiCad](https://www.kicad.org/download/) and start making modifications to these boards so that you can more easily populate them.
@@ -16,7 +16,7 @@ I used a 0.8mm PCB when I originally made these, and found it worked quite well.
 
 | DS4 Board   | Tested  | PCB                   | Connector | Pictures | Credits |
 |-------------|---------|-----------------------|--------|----------|---------|
-| **JDS-001** | ✗ | [001](/001) | 14 | [Schematic](/001/001.svg), [Front](/001/001_Front.png), [Back](/001/001_Back.png) | [^cred001] |
+| **JDS-001** | ✔ | [001](/001) | 14 | [Schematic](/001/001.svg), [Front](/001/001_Front.png), [Back](/001/001_Back.png) | [^cred001] |
 | **JDS-011** | ✔ | [011](/011) | 12 | [Schematic](/011/011.svg), [Front](/011/011_Front.png), [Back](/011/011_Back.png) | [^cred011] [^cred001] |
 | **JDS-030** | ✔ | [030](/030)           | 12 | [Schematic](/030/030.svg), [Front](/030/030_Front.png), [Back](/030/030_Back.png) | [^cred030] |
 | **JDS-040** | ✔ | [040-055](/040%20055) | 12 | [Schematic](/040%20055/040%20055.svg), [Front](/040%20055/040%20055_Front.png), [Back](/040%20055/040%20055_Back.png) | [^cred055] |
