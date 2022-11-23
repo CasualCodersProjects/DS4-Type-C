@@ -3,7 +3,7 @@
 This project has reached EOL. It is no longer under active development. PRs will be merged, but I no longer intend to update boards. Feel free to use all of the info provided here to make modifications to boards like using new parts or LEDs. These are pretty basic though, so this should hopefully hold until the DS4 controller is well discontinued.
 
 ## Background
-Hate microUSB? Looking to decrease cable clutter? This is the PS4 mod for you. This repo aims to host mostly drop-in USB Type C replacement boards for all revisions of PS4 controller. The goal for each board is to follow the USB Type C standard, and to include pads for those who wish to impedance match the USB data lines. Either solder in resistors here to compensate, or simply use a solder/wire bridge. The overall project goal is to keep all possible parts the same between boards, and to make it reasonablly easy for a person of moderate skill to populate these boards. This is an open source project though, so you're free to download [KiCad](https://www.kicad.org/download/) and start making modifications to these boards so that you can more easily populate them.
+Hate microUSB? Looking to decrease cable clutter? This is the PS4 mod for you. This repo aims to host mostly drop-in USB Type C replacement boards for all revisions of PS4 controller. Each board follow the USB Type C legacy standard, allowing C to C charging and data transfer at USB 2.0 speeds. The overall project goal is to keep all possible parts the same between boards, and to make it reasonablly easy for a person of moderate skill to populate these boards. This is an open source project though, so you're free to download [KiCad](https://www.kicad.org/download/) and start making modifications to these boards so that you can more easily populate them.
 
 I used a 0.8mm PCB when I originally made these, and found it worked quite well. Gives a little more room to work inside the controller. Cost will likely depend on which board house you choose to go through. 
 
@@ -23,7 +23,7 @@ I used a 0.8mm PCB when I originally made these, and found it worked quite well.
 | **JDS-05X** | ✔ | [040-055](/040%20055) | 12 | [Schematic](/040%20055/040%20055.svg), [Front](/040%20055/040%20055_Front.png), [Back](/040%20055/040%20055_Back.png) | [^cred055] |
 
 [^cred001]:
-    The original work for this board was done [here](https://github.com/HDR/DualShock4-USB-C) by Martin Refseth. I reworked his board to create kicad and schematic files for it. I also added compensation resistors as discussed above.
+    The original shape for this board was done [here](https://github.com/HDR/DualShock4-USB-C) by Martin Refseth. Thxandbye created the schematic and laid the traces on top.
 [^cred011]:
     Thanks to IcicaSora for providing the schematic for 011
 [^cred030]:
@@ -34,7 +34,7 @@ As of 11/08/2021, the 055 pinout has been confirmed by reddit user [u/jrmanpt](h
     
 ### Universal
 The idea here is to create one "panelized" board which contains all above boards (JDS 001, 011, 030, 040, 050, 055). This means that someone could easily acquire a board for all controllers, then populate the one they need.  
-Work can now begin for this panel. Though I've done enough work in March, so this will happen later.
+Work can now begin for this panel.
 
 This is not something I plan to do anymore. If you'd like to do this and submit a PR, feel free and I'll merge it.  
  -Ian
