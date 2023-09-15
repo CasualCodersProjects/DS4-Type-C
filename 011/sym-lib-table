@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name MSL0104RGB)(type Legacy)(uri ${KIPRJMOD}/MSL0104RGB.lib)(options "")(descr ""))
-)
