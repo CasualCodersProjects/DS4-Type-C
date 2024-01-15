@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LED_Custom")(type "KiCad")(uri "${KIPRJMOD}/LED_Custom.pretty")(options "")(descr ""))
+  (lib (name "Connector_Custom")(type "KiCad")(uri "${KIPRJMOD}/Connector_Custom.pretty")(options "")(descr ""))
+)
