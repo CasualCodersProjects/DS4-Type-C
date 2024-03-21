@@ -1,5 +1,0 @@
-(fp_lib_table
-  (lib (name MSL0104RGB)(type KiCad)(uri ${KIPRJMOD}/MSL0104RGB.pretty)(options "")(descr ""))
-  (lib (name "Molex 503480-1400")(type KiCad)(uri "${KIPRJMOD}/Molex 503480-1400.pretty")(options "")(descr ""))
-  (lib (name New_LED)(type KiCad)(uri ${KIPRJMOD}/New_LED.pretty)(options "")(descr ""))
-)
